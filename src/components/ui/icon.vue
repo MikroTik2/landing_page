@@ -12,7 +12,7 @@ const props = defineProps<IPropsIcon>();
 const icon = defineAsyncComponent(
      () =>
           import(
-               /* @vite-ignore */ `/src/assets/public/icons/${props.name}.svg?component`
+               /* @vite-ignore */ `/src/assets/icons/${props.name}.svg?component`
           )
 );
 </script>

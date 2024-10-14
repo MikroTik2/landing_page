@@ -43,7 +43,7 @@
                </div>
 
                <Image
-                    src="/src/assets/public/images/cube-leg.png"
+                    src="/images/cube-leg.png"
                     class="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
                     alt="About services"
                />
