@@ -62,7 +62,7 @@ import * as z from 'zod';
 
 import Button from '@/components/ui/button/Button.vue';
 import Input from '@/components/ui/input/Input.vue';
-import TelegramModule from '@/services/modules/telegram.module';
+import telegramService from '@/services/modules/telegram.module';
 
 const { toast } = useToast();
 
@@ -79,7 +79,7 @@ const { handleSubmit, resetForm } = useForm({
 const onSubmit = handleSubmit(async values => {
      resetForm();
 
-     await TelegramModule.sendMessage(values.email);
+     await telegramService.sendMessage(values.email);
 
      toast({
           title: 'Success',
