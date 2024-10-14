@@ -44,7 +44,7 @@
                          type="link"
                          variant="outline"
                          class="w-full md:w-1/3"
-                         href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                         href="https://github.com/MikroTik2/landing_page_for_school"
                          target="_blank"
                     >
                          Github Repository
