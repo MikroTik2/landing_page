@@ -15,6 +15,7 @@ export default defineConfig({
     svgLoader(),
   ],
 
+  base: '/',
   server: {
     port: 3001,
     open: true,

@@ -10,6 +10,6 @@ import type { IPropsIcon } from '@/models/icon.model';
 const props = defineProps<IPropsIcon>();
 
 const icon = defineAsyncComponent(
-     () => import(`@/assets/svg/${props.name}.svg?component`),
+     () => import(`@/assets/svg/${props.name}.svg?component`)
 );
 </script>
