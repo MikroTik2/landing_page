@@ -77,7 +77,7 @@
                     <Button
                          type="link"
                          variant="secondary"
-                         href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                         href="https://github.com/MikroTik2/landing_page_for_school"
                     >
                          <GithubLogoIcon class="mr-2 w-5 h-5" />
                          Github
