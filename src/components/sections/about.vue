@@ -4,7 +4,7 @@
                <div
                     class="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12"
                >
-                    <Image
+                    <img
                          src="/images/about.png"
                          alt="about"
                          class="w-[300px] object-contain rounded-lg"
