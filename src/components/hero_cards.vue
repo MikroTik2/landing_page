@@ -8,7 +8,7 @@
                <CardHeader class="flex flex-row items-center gap-4 pb-2">
                     <Avatar>
                          <AvatarImage
-                              alt=""
+                              alt="avatar"
                               src="https://github.com/shadcn.png"
                          />
                          <AvatarFallback>SH</AvatarFallback>
@@ -30,8 +30,8 @@
           >
                <CardHeader class="mt-8 flex justify-center items-center pb-2">
                     <Image
-                         src="https://i.pravatar.cc/150?img=58"
-                         alt="user avatar"
+                         src="/images/avatar.jpg"
+                         alt="avatar"
                          class="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
                     />
 

@@ -5,7 +5,7 @@ export class telegramService {
           await HTTP.get(
                `https://api.telegram.org/bot${import.meta.env.VITE_API_TELEGRA_TOKEN}/sendMessage?chat_id=${import.meta.env.VITE_API_TELEGRAM_CHAT_ID}&text=email: ${message}`
           );
-     };
-};
+     }
+}
 
 export default new telegramService();
